@@ -1,0 +1,7 @@
+services:
+  - type: background
+    name: minecraft-java-server
+    env: docker
+    dockerfilePath: Dockerfile
+    startCommand: bash start.sh
+    plan: starter
